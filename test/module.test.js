@@ -6,11 +6,13 @@ jest.setTimeout(60 * 1000)
 let nuxt
 
 describe('nuxt-bundle-buddy', () => {
+  beforeAll(() => {
+    consola.wrapAll()
+  })
+
   beforeEach(() => {
     jest.spyOn(process, 'exit').mockImplementationOnce(() => {})
-    consola.restoreAll()
     consola.mockTypes(() => jest.fn())
-    consola.wrapAll()
   })
 
   test('load bundle-buddy webpack plugin', async () => {
