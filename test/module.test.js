@@ -6,16 +6,10 @@ jest.setTimeout(60 * 1000)
 let nuxt
 
 describe('nuxt-bundle-buddy', () => {
-  let consolaLog
-
   beforeEach(() => {
     jest.spyOn(process, 'exit').mockImplementationOnce(() => {})
-    jest.spyOn(global.console, 'log')
-    consolaLog = jest.fn()
     consola.restoreAll()
-    consola.setReporters({
-      log: consolaLog
-    })
+    consola.mockTypes(() => jest.fn())
     consola.wrapAll()
   })
 
@@ -24,7 +18,7 @@ describe('nuxt-bundle-buddy', () => {
       nuxt = await setupNuxt(require('./fixture/configs/default'))
     } catch (e) {}
 
-    const consolaMessages = consolaLog.mock.calls.map(c => c[0].args[0])
+    const consolaMessages = consola.log.mock.calls.map(c => c[0])
     expect(consolaMessages.find(s => s.includes('No bundle duplication detected'))).toBeTruthy()
   })
 

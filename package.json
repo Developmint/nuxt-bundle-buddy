@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "bundle-buddy-webpack-plugin": "^0.3.0",
-    "consola": "2.0.7"
+    "consola": "2.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
@@ -69,7 +69,7 @@
     "eslint": "^5.8.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^21.26.2",
+    "eslint-plugin-jest": "^21.27.0",
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
