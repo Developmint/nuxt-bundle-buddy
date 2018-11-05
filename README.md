@@ -7,7 +7,7 @@
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 [![thanks](https://img.shields.io/badge/thanks-%E2%99%A5-ff69b4.svg)](https://thanks.lichter.io/)
 
->
+![example](https://pbs.twimg.com/media/DrGbS53XcAIY2P_.jpg:large)
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
