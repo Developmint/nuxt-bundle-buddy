@@ -1,6 +1,6 @@
 {
   "name": "nuxt-bundle-buddy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Don't fight your webpack bundle, become friends!",
   "license": "MIT",
   "contributors": [
