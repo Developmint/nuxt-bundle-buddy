@@ -76,7 +76,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "husky": "^1.2.0",
     "jest": "^23.6.0",
-    "jsdom": "^13.0.0",
+    "jsdom": "^14.0.0",
     "nuxt-edge": "^2.3.0-25706271.cca799c",
     "standard-version": "^4.4.0",
     "webpack-defaults": "^3.0.0"
