@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "bundle-buddy-webpack-plugin": "^0.3.0",
-    "consola": "2.3.0"
+    "consola": "3.2.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
